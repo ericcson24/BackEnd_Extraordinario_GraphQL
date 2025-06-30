@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run -A --env watcher.ts"
+    "dev": "deno run -A --env --watch main.ts"
   },
   "lint": {
     "rules": {
@@ -14,3 +14,5 @@
     "mongodb": "npm:mongodb@^6.12.0"
   }
 }
+
+
